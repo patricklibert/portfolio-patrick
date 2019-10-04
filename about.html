@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Aboutme page of Patrick Libert">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <!--<script src="https://kit.fontawesome.com/9d06a64cb4.js" crossorigin="anonymous"></script>-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+
+
+    <title>AboutMe</title>
+
+</head>
+<body>
+<nav id="navbar" class="navigator-desktop">
+    <div class="mainnav">
+        <ul>
+            <li><a href="index.html" rel="noopener noreferrer" class="links">Home</a></li>
+            <li><a href="https://patricklibert.github.io/Responsive-CV/" rel="noopener noreferrer" target="_blank" class="links">CV</a></li>
+            <li class="liactive"><a href="" rel="noopener noreferrer" class="links">About</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="navbar-small" class="navigator-mobile navbar-ontop">
+    <div id="target" class="out-navbar">
+        <div id="slide" class="mobile-options">
+          <ul>
+            <li class="close-button"><a onclick="closeNav()" id="close-window" href="#!" class="links"><i class="fas fa-window-close"></i></a></li>
+            <li><a href="https://patricklibert.github.io/Responsive-CV/" rel="noopener noreferrer" target="_blank" class="links">CV</a></li>
+            <hr class="line">
+            <li><a href="index.html" rel="noopener noreferrer" class="links">Portfolio</a></li>
+            <hr class="line">
+          </ul>
+        </div>
+    </div>
+    <div class="mainnav-mobile">
+        <a onclick="openNav()" href="#!" id="trigger" rel="noopener noreferrer"><i class="fas fa-bars fa-2x" class="links"></i></a>
+    </div>
+
+</nav>
+<div class="aboutme">
+
+    <p>About Me</p>
+
+</div>
+<div class="aboutme-text">
+    <p>Hello, I'm Patrick. Welcome to my portfolio. Here you can check out the things I code and find out more of me.
+        I'm currently looking for an internship from 1 to 3 months, after that I'm sure I can work as a frontend/backend/fullstack coder.
+
+    </p>
+</div>
+
+<span class="image fit"><img alt="aboutme" class="main-image" src="images/aboutme.jpg" alt=""></span>
+
+<div class="aboutme-text">
+    <p>I'm now following an education at BeCode. The best school for webdevelopment. Beside learning to code we laugh a lot.
+    I'm learning the following programming languages: html5, css3, bootstrap, sass, javascript, php frameworks like symfony and laravel, mysql.
+        It's going great.
+    </p>
+    <p>
+        Check out my websites that I created and also check my github account.
+    </p>
+    <p>
+        I create usable, professional websites using best practice accessibility and the latest W3C web standards guidelines, resulting in semantic and seo friendly HTML5 and CSS3.
+        I'm especially proud of my own php mvc framework I created which this website was build with.
+
+    </p>
+    <p>
+        Aside programming I love opensource and Ubuntu. I have created my own gtk3 theme for ubuntu which uses a kind of css3.
+    </p>
+</div>
+<div class="aboutme-icons">
+    <a href="https://github.com/patricklibert" rel="noopener noreferrer" target="_blank" ><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/patrick-libert-730b6b101/" rel="noopener noreferrer" target="_blank" ><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:patrick.libert@gmail.com"><i class="fas fa-envelope-square"></i>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
